@@ -28,7 +28,6 @@ User Stories
 References
 - [Angular-Meteor Tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping)
 - [Official Angular2 Style Guide](https://angular.io/styleguide)
-- 
 
 # Build
 Clone this repository.
