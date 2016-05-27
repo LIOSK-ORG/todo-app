@@ -1,0 +1,33 @@
+
+<div class = "panel panel-primary">
+  <div class = "panel-heading">
+        <h3 class = "panel-title"> <i class="fa fa-check-square-o" aria-hidden="true"></i> Your Todo Task List</h3>
+  </div>
+
+<div *ngIf="tasksCount()>0">
+<span class="label label-info">All : {{tasksCount()}}</span>
+<span class="label label-success">Completed : {{tasksCompleted()}}</span>
+<span class="label label-warning">Active : {{tasksActive()}}</span>
+
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let task of tasks|async">
+
+    <button class="btn btn-sm btn-danger pull-right" (click)="removeTask(task)"><i class="fa fa-times" aria-hidden="true"></i></button>
+
+      <input type="checkbox" [checked]="task.status=='COMPLETED'" checked  (click)="completeTask(task)">
+
+      <a [routerLink]="['/TaskDetails', {taskId: task._id}]">
+
+        <!-- update with ngClass -->
+        <span *ngIf="task.status=='COMPLETED'" style="text-decoration: line-through;color:green">{{task.name}}</span>
+        <span *ngIf="task.status!='COMPLETED'">{{task.name}}</span>
+
+      </a>
+      <span *ngIf="task.status=='COMPLETED'" class="text-success"><i class="fa fa-check" aria-hidden="true"></i></span>
+    </li>
+</ul>
+</div>
+<div *ngIf="tasksCount()<=0">
+  <h5 class="text-warning">&nbsp;&nbsp;<i class="fa fa-info-circle bg-info" aria-hidden="true"></i> You do not have tasks to display. </h5>
+</div>
+</div>

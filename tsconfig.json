@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es5",
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "client/**/*.ts",
+    "server/**/*.ts",
+    "typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "client/app.ts",
+    "client/apps/TodoApp/components/AddTask/AddTask.ts",
+    "client/apps/TodoApp/components/TaskDetails/TaskDetails.ts",
+    "client/apps/TodoApp/components/TodoList/TodoList.ts",
+    "client/apps/TodoApp/lib/TaskService.ts",
+    "client/views/home/home.ts",
+    "server/main.ts",
+    "server/tasks.ts",
+    "typings/globals/es6-shim/index.d.ts",
+    "typings/globals/meteor/index.d.ts",
+    "typings/index.d.ts",
+    "typings/modules/es6-promise/index.d.ts",
+    "typings/task.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}

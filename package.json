@@ -1,0 +1,15 @@
+{
+  "name": "lioskapp",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "angular2-meteor": "^0.5.5",
+    "angular2-meteor-accounts-ui": "^0.4.3",
+    "es6-shim": "^0.35.1",
+    "meteor-node-stubs": "~0.2.0",
+    "reflect-metadata": "^0.1.2"
+  }
+}

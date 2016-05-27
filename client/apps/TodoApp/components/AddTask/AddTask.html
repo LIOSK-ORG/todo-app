@@ -1,0 +1,11 @@
+
+<form [ngFormModel]="addTaskForm" #f="ngForm" (submit)="addTask(f.value)">
+  <div class="form-group">
+    <div class="input-group">
+      <input class="form-control" placeholder="What needs to be done?" type="text" ngControl="name">
+      <span class="input-group-btn">
+        <button class="form-control btn btn-sm btn-success btn-primary-outline"><i class="fa fa-plus" aria-hidden="true"></i> Add</button>
+      </span>
+    </div>
+  </div>
+</form>
