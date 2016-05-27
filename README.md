@@ -3,6 +3,7 @@
 Todo App is LIOSK pilot project and a prototype to understand the Angular2, Meteor, Typescript, Mongodb and related technologies. Build the project while learning all these technologies and this is an example approach to using the technologies. 
 
 As a not for profit project (www.liosk.org), keep all the projects open to community.
+Any type of contribution to this project is welcome. Send mail to rahman.liosk@gmail.com.
 
 User Stories
 
@@ -30,5 +31,13 @@ References
 - [Official Angular2 Style Guide](https://angular.io/styleguide)
 
 # Build
-Clone this repository.
+
+Current Status : Work In Progress 
+You could able to run the application, might found issues.
+Please do not report any issues till the basic app version.
+
+Clone this repository
+
 See [README.comp.txt](README.comp.txt) for meteor/angular/dependency components install for reference
+
+Report any issues
