@@ -1,6 +1,8 @@
 #ToDo App
 
-Using Meteor Angular2 Typescript Mongodb ...
+Todo App is LIOSK pilot project and a prototype to understand the Angular2, Meteor, Typescript, Mongodb and related technologies. Build the project while learning all these technologies and this is an example approach to using the technologies. 
+
+As a not for profit project (www.liosk.org), keep all the projects open to community.
 
 User Stories
 
