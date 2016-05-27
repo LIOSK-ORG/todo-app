@@ -28,3 +28,8 @@ User Stories
 References
 - [Angular-Meteor Tutorial](http://www.angular-meteor.com/tutorials/socially/angular2/bootstrapping)
 - [Official Angular2 Style Guide](https://angular.io/styleguide)
+- 
+
+# Build
+Clone this repository.
+See [README.comp.txt](README.comp.txt) for meteor/angular/dependency components install for reference
